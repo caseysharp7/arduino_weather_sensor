@@ -12,7 +12,7 @@ void setup()
   radio.setReceiveAddress("1123D");
   radio.setTransmitAddress("1123C");
   radio.setChannel(49);
-	lcd.init(); // initialize the lcd
+	lcd.init();
 	lcd.backlight();
 }
 
